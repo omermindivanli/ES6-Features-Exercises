@@ -23,3 +23,5 @@ const arr = [1, 2, 3];
 const [val1, val2, val3] = arr;
 
 console.log(arr);
+
+// https://javascript.info/

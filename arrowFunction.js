@@ -14,3 +14,5 @@ let randomES6 = () => {
 };
 
 console.log(randomES6());
+
+// https://javascript.info/
