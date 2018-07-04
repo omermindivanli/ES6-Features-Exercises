@@ -6,7 +6,7 @@
   "editor.lineHeight": 28,
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "400",
-  "editor.fontSize": 22,
+  "editor.fontSize": 20,
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New'",
   "editor.formatOnSave": true,
   "editor.cursorStyle": "line",
