@@ -16,7 +16,11 @@ let newObj = Object.assign(
   ...arr.map(item => ({ [item.key]: item.value })),
 );
 
-if (obj === newObj) {
+// Best Solution ES6
+const nytObj = (arr, key) =>
+  Object.assign({}, ...arr.map(item => ({ [item[key]]: value })));
+
+if (obj === nytObj) {
   console.log(newObj);
 } else {
   console.log('Shit');
